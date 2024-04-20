@@ -24,124 +24,112 @@
 </head>
 <body>
     <section id="header">
-        <div class="backdrop">
-            <nav class="navbar navbar-expand-md">
-                <div class="container-fluid justify-content-center">
+        <div class="overlay"></div>
+        <div class="container-xl header-container">
+            <nav>
+                <div class="container-fluid nav-container">
                     <a href="#" class="navbar-brand">
                         <img src="{% static 'mskcreations/images/msk-text-logo.png' %}" alt="" class="img-fluid px-0 logo">
                     </a>
                 </div>
             </nav>
-            <div class="header-content text-center p-4">
+            <div class="header-content p-4">
                 <h1 class="display-1 header-text header-text-top">
-                    turning <span class="first">moments</span>
+                    Turning <span class="first">moments</span>
                 </h1>
                 <h1 class="display-1 header-text header-text-bottom">
                     into <span class="px-4">memories</span>
                 </h1>
             </div>
-            <div class="text-center">
-                <a id="header-contact" href="#contact" class="btn py-2 px-4 rounded-0 border-white border-2">Contact Us</a>
+            <div class="header-button">
+                <a id="header-contact" href="#contact" class="btn py-3 px-5">Contact Us</a>
             </div>
         </div>
     </section>
-    <section id="a-bit-of-heart" class="p-md-4">
-        <div class="heart-container p-4 container-fluid">
-            <div class="heart-content">
-                <div class="heart-backdrop p-3">
-                    <div class="display-3 mt-2 text-center heart-title">
-                        Events done with a bit of
-                        <span>heart</span>
+    <section id="a-bit-of-heart" class="p-4 my-5">
+        <div class="container-xl heart-container p-4">
+            <div class="heart-content p-4">
+                <div class="overlay"></div>
+                <h1 class="heart-title py-4">
+                    Events done with a bit of
+                    <span>heart</span>
+                </h1>
+                <p class="heart-text mt-3">
+                    Our main goal is to create experiences that go way beyond the norm by providing our clients 
+                    with an integrated in-house service portfolio. Our team offers creative vision, professionalism, 
+                    and expertise to create the best experience with constant care, attention to detail, originality 
+                    and more than satisfying results. <span class="heart-span d-none d-md-block">Our focus is on the customer's need and the quality of service, 
+                        by offering extended service to our clients and, therefore, building the relationship of a lifetime. 
+                        With time, we intend to establish our services worldwide, which will expand the public's knowledge 
+                        of us and our services.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="p-4">
+        <div class="container-xl services-container">
+            <div class="services-logo">
+                <img src="{% static 'mskcreations/images/msk-logo-black.png' %}" alt="" class="my-4 services-logo">
+            </div>
+            <h1 class="services-heading mt-4">Our Services</h1>
+            <div class="services-grid p-4 mt-5">
+                <div class="services-column p-3">
+                    <div class="services-card">
+                        <div class="services-card-overlay overlay-one"></div>
+                        <div class="services-content">
+                            <p class="services-title p-0 m-0">Management</p>
+                            <p class="services-description p-2 m-0">
+                                Set up & decoration • Catering • Staff (Bartender - waiters etc...) • Sound & Light • Artists • Videography • Photography
+                            </p>
+                        </div>
                     </div>
-                    <p class="heart-text text-center d-md-block mt-4">
-                        Our main goal is to create experiences that go way beyond the norm by providing our clients 
-                        with an integrated in-house service portfolio. Our team offers creative vision, professionalism, 
-                        and expertise to create the best experience with constant care, attention to detail, originality 
-                        and more than satisfying results. <span class="heart-span d-none d-md-block">Our focus is on the customer's need and the quality of service, 
-                            by offering extended service to our clients and, therefore, building the relationship of a lifetime. 
-                            With time, we intend to establish our services worldwide, which will expand the public's knowledge 
-                            of us and our services.</span>
+                </div>
+                <div class="services-column p-3">
+                    <div class="services-card">
+                        <div class="services-card-overlay overlay-two"></div>
+                        <div class="services-content">
+                            <p class="services-title p-0 m-0">Entertainment</p>
+                            <p class="services-description p-2 m-0">
+                                DJS • hosts• MCs• musicians • traditional dancers• bands• kids entertainment
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-column p-3">
+                    <div class="services-card">
+                        <div class="services-card-overlay overlay-three"></div>
+                        <div class="services-content">
+                            <p class="services-title p-0 m-0">Production</p>
+                            <p class="services-description p-2 m-0">
+                                • Light and sound system installation & renting • Audio Visual Equipments • LED screens & Projections • Dance floors & stages • Furniture & Decor • Backdrop & mapping
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="vision-mission" class="p-4">
+        <div class="container-xl p-4">
+            <div class="vision-mission-img">
+                <img src="{% static 'mskcreations/images/vision-bg.jpeg' %}" alt="">
+            </div>
+            <div class="vision-mission">
+                <div class="vision p-4">
+                    <h1 class="vision-title">our<br>vision</h1>
+                    <p class="vision-description">
+                        “to conduct business that is ethical<br>
+                        and reliable while meeting our clients<br>
+                        expectations”
                     </p>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="service-banner">
-        <div class="service-banner-container container-fluid p-0">
-            <div class="service-banner-content">
-                <div class="service-banner-backdrop text-center">
-                    <img src="{% static 'mskcreations/images/msk-logo.png' %}" alt="" class="img-fluid m-5 service-banner-logo">
-                    <div class="display-1 mt-5 service-banner-text">Our Services</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="services" class="p-4 mt-5">
-        <div class="container-fluid p-0">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-3 text-center">
-                    <img src="{% static 'mskcreations/images/msk-logo-black.png' %}" alt="" class="img-fluid my-4 services-logo">
-                </div>
-            </div>
-            <div class="display-1 mt-5 service-banner-text text-center text-black">Our Services</div>
-            <div class="row justify-content-center align-items-center cards p-3">
-                <div class="col-10 col-lg-4 my-3">
-                    <div class="card first-card border-0">
-                        <div class="card-backdrop">
-                            <div class="card-body text-center p-lg-4">
-                                <h4 class="card-title">Event Management</h4>
-                                <p class="card-text p-4">Set up & decoration • Catering • Staff (Bartender - waiters etc...) • Sound & Light • Artists • Videography • Photography</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-10 col-lg-4 my-3">
-                    <div class="card second-card border-0">
-                        <div class="card-backdrop">
-                            <div class="card-body text-center p-lg-5">
-                                <h4 class="card-title">Event Entertainment</h4>
-                                <p class="card-text p-3">DJS • hosts• MCs• musicians • traditional dancers• bands• kids entertainment</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-10 col-lg-4 my-3">
-                    <div class="card third-card border-0">
-                        <div class="card-body text-center p-lg-4">
-                            <h4 class="card-title">Event Production</h4>
-                            <p class="card-text p-3">Light and sound system installation & renting • Audio Visual Equipments • LED screens & Projections • Dance floors & stages • Furniture & Decor • Backdrop & mapping</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="vision-mission">
-        <div class="container-fluid p-0">
-            <div class="row vision-mission-content m-0 justify-content-center align-items-center">
-                <div class="vision-mission-img d-none d-md-block col-6 col-lg-6 p-0">
-                    <img src="{% static 'mskcreations/images/vision-bg.jpeg' %}" alt="" class="img-fluid">
-                </div>
-                <div class="col-10 col-md-6 col-lg-6 vision-mission-content">
-                    <div class="vision">
-                        <div class="display-2 vision-title text-center text-md-start pt-md-4 ms-md-3">
-                            our<br class="d-none d-md-block mt-3"> vision
-                        </div>
-                        <p class="lead vision-text text-center text-md-start mt-3 ms-md-3">
-                            to conduct business that is ethical 
-                            and reliable while meeting our clients'
-                            expectations
-                        </p>
-                    </div>
-                    <div class="mission">
-                        <div class="display-2 mission-title text-center text-md-start ms-md-3">
-                            our<br class="d-none d-md-block"> mission
-                        </div>
-                        <p class="lead vision-text text-center text-md-start mt-3 ms-md-3">
-                            to motivate, support and create a grand impression on our 
-                            staff, suppliers and clients
-                        </p>
-                    </div>
+                <div class="mission p-4">
+                    <h1 class="mission-title">our<br>mission</h1>
+                    <p class="mission-description">
+                        to motivate, support and create a gran<br>
+                        impression on our staff, suppliers<br> 
+                        and clients
+                    </p>
                 </div>
             </div>
         </div>
