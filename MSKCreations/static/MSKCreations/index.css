@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Breathing';
+    src: url('/static/MSKCreations/fonts/Breathing/breathing.woff2') format('woff2'),
+        url('/static/MSKCreations/fonts/Breathing/breathing.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'The Seasons';
+    src: url('/static/MSKCreations/fonts/TheSeasons/theseason-regular.woff2') format('woff2'),
+        url('/static/MSKCreations/fonts/TheSeasons/theseason-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Italic Seasons';
+    src: url('/static/MSKCreations/fonts/TheSeasons/theseasons-italic.woff2') format('woff2'),
+        url('/static/MSKCreations/fonts/TheSeasons/theseasons-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: url('images/msk-header.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+.backdrop {
+    height: 100%;
+    background-color: #0000003a;
+}
+
+.logo {
+    height: 18vh;
+}
+
+.header-content {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#header-contact {
+    color: #ffffff;
+    position: absolute;
+    bottom: 2vh;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', 'League Spartan';
+}
+
+#header-contact:hover {
+    color: #d68d65;
+    background-color: #ffffff;
+}
+
+.header-text {
+    color: #ffffff;
+    font-family: 'The Seasons', 'League Spartan';
+    font-style: normal;
+}
+
+.header-text .first{
+    font-family: 'Italic Seasons';
+}
+
+.header-text span{
+    font-family: 'Breathing', 'Poppins';
+}
+
+#a-bit-of-heart {
+    height: 100vh;
+}
+
+.heart-container {
+    height: 100%;
+    border: 1px solid #d49c7e;
+}
+
+.heart-content {
+    height: 100%;
+    background: url('images/a-bit-of-heart.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.heart-backdrop {
+    height: 100%;
+    background-color: #0000003a;
+}
+
+.heart-title {
+    color: #ffffff;
+    font-family: 'Breathing', 'Dancing Script';
+}
+
+.heart-title span {
+    display: block;
+    color: #d49c7e;
+}
+
+.heart-text {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 600;;
+    font-family: 'Poppins', 'League Spartan';
+}
+
+#service-banner {
+    height: 100vh;
+    background: url('images/service-banner.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.service-banner-container {
+    height: 100%;
+}
+
+.service-banner-content {
+    height: 100%;
+}
+
+.service-banner-backdrop {
+    height: 100%;
+    background-color: #0000003a;
+}
+
+.service-banner-logo {
+    height: 20vh;
+}
+
+.service-banner-text {
+    color: #ffffff;
+    font-family: 'Breathing', "Dancing Script";
+}
+
+#services {
+    height: 100vh;
+    background-color: #F8EDE1;
+}
+
+#services .container-fluid {
+    height: 100%;
+    border: 1px solid #d49c7e;
+}
+
+.cards {
+    height: 70%;
+}
+
+.services-logo {
+    height: 18vh;
+}
+
+.card-backdrop {
+    height: 100%;
+    background-color: #0000006c;
+}
+
+.first-card {
+    background: url('images/service-card-1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.second-card {
+    background: url('images/service-card-2.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+.third-card {
+    background: url('images/service-card-3.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.card-body, .card-title {
+    font-family: 'The Seasons';
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+#vision-mission .container-fluid {
+    height: 100%;
+}
+
+.vision-mission-content {
+    height: 100%;
+}
+
+.vision-mission-img {
+    height: 100%;
+}
+
+.vision-mission-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vision, .mission{
+    height: 100%;
+}
+
+.vision-title, .mission-title {
+    color: #d4b39c;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 3.5rem;
+    font-family: 'League Spartan';
+}
+
+.vision-text {
+    color: #d4b39c;
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-family: 'Poppins', 'League Spartan'
+}
+
+#contact {
+    height: 90vh;
+    margin-top: 20vh;
+    background: url('images/contact-bg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.contact-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #00000067;
+}
+
+.contact-text {
+    flex: 0.4;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.contact-title {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+form {
+    flex: 0.6;
+}
+
+.contact-block {
+    display: flex;
+}
+
+.contact-block > .block-item {
+    flex: 0.5;
+}
+
+label {
+    display: block;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+input, select{
+    width: 100%;
+    padding: 2vh;
+}
+
+input, textarea, select{
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #d49c7eaf;
+}
+
+#form_submit {
+    color: #ffffff;
+    font-weight: 600;
+    border: 2px solid #ffffff;
+    background-color: #d49c7e;
+    transition: all 0.3s;
+}
+
+#form_submit:hover {
+    background-color: #d68d65;
+}
+
+.alert {
+    width: 30vw;
+    bottom: 4vh;
+    right: 5vw;
+    position: fixed;
+}
+
+footer {
+    height: 40vh;
+    font-family: 'The Seasons';
+    background-color: #d49c7e;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+.footer-logo img{
+    height: 38vh;
+}

@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'mskcreations/home.css' %}">
+    
+    <title>MSKCreations - Home</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid header-container p-0 m-0">
+            <nav>
+                <a href="#" class="navbar-brand">
+                    <img src="{% static 'mskcreations/images/msk-text-logo.png' %}" alt="" class="img-fluid logo">
+                </a>
+            </nav>
+            <div class="header-content text-center">
+                <div class="header-text">
+                    <div class="display-1 header-heading top">
+                        turning<br class="d-md-none"> moments<br>into<br class="d-md-none"> <span>memories</span>
+                    </div>
+                </div>
+                <a id="header-contact" href="#contact" class="btn btn-lg">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    <section id="heart-section" class="p-4">
+        <div class="container-fluid heart-container p-4">
+            <div class="heart-content">
+                <div class="heart-backdrop p-2">
+                    <div class="display-3 text-center heart-heading py-4">
+                        Events done with a bit of
+                        <br><span>heart</span>
+                    </div>
+                    <p class="heart-text text-center">
+                        Our main goal is to create experiences that go way beyond the norm by providing our clients 
+                        with an integrated in-house service portfolio. Our team offers creative vision, professionalism, 
+                        and expertise to create the best experience with constant care, attention to detail, originality 
+                        and more than satisfying results. <span class="heart-span d-none d-md-block">Our focus is on the customer's need and the quality of service, 
+                            by offering extended service to our clients and, therefore, building the relationship of a lifetime. 
+                            With time, we intend to establish our services worldwide, which will expand the public's knowledge 
+                            of us and our services.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

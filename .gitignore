@@ -1,0 +1,7 @@
+.idea/
+MSKCreations/__pycache__/
+virtual/
+db.sqlite3
+MSKCreations/Scripts/__pycache__/
+MSKCreations/migrations/__pycache__/
+MSKCreations/migrations

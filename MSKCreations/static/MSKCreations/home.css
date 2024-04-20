@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Breathing';
+    src: url('/static/MSKCreations/fonts/Breathing/breathing.woff2') format('woff2'),
+        url('/static/MSKCreations/fonts/Breathing/breathing.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'The Seasons';
+    src: url('/static/MSKCreations/fonts/TheSeasons/theseason-regular.woff2') format('woff2'),
+        url('/static/MSKCreations/fonts/TheSeasons/theseason-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Italic Seasons';
+    src: url('/static/MSKCreations/fonts/TheSeasons/theseasons-italic.woff2') format('woff2'),
+        url('/static/MSKCreations/fonts/TheSeasons/theseasons-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    height: 100vh;
+    background: url('images/msk-header.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+.header-container {
+    height: 100%;
+    position: relative;
+    background-color: #0000004d;
+}
+
+nav {
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand {
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
+    object-fit: contain;
+}
+
+.header-content {
+    height: 82vh;
+}
+
+.header-text {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.header-heading {
+    font-size: 4em;
+    font-family: 'The Seasons', 'League Spartan';
+    font-style: normal;
+}
+
+.header-heading span {
+    font-family: 'Breathing', 'Poppins';
+}
+
+#header-contact {
+    width: 50%;
+    bottom: 6vh;
+    height: 8vh;
+    color: #ffffff;
+    border-radius: 0;
+    position: absolute;
+    transition: 0.3s all;
+    border: 2px solid #ffffff;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', 'League Spartan';
+}
+
+#header-contact:hover {
+    color: #d68d65;
+    background-color: #ffffff;
+}
+
+#heart-section {
+    height: 100%;
+}
+
+.heart-container {
+    height: 100%;
+    border: 1px solid #d49c7e;
+}
+
+.heart-content {
+    height: 100%;
+    background: url('images/a-bit-of-heart.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.heart-backdrop {
+    height: 100%;
+    background-color: #0000003a;
+}
+
+.heart-heading {
+    color: #ffffff;
+    font-family: 'Breathing', 'Dancing Script';
+}
+
+.heart-heading span {
+    display: block;
+    color: #d49c7e;
+}
+
+.heart-text {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Poppins', 'League Spartan';
+}
